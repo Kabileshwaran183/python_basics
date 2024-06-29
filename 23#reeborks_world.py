@@ -1,0 +1,31 @@
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+def go_to_store():
+    move()
+    move()
+    move()
+    turn_left()
+    move()
+    move()
+    move()
+    move()
+    move()
+    move()
+    turn_right()
+    move()
+    move()
+    move()
+def turnaround():
+    turn_left()
+    turn_left()
+    
+move()
+move()
+turnaround()
+move()
+move()
+turnaround()
+go_to_store()
+    
